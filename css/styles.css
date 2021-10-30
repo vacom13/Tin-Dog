@@ -1,0 +1,189 @@
+#title {
+    background-color:#ff4c68;
+}
+.container-fluid{
+    padding: 3% 15%;
+    padding-bottom:10%;
+}
+#td{
+    font-size:2.5rem;
+    font-family:'Ubuntu';
+    font-weight:Bold;
+}
+
+.big-heading{
+    line-height:1.5;
+    color:white;
+    font-size: 3.5rem;
+}
+
+/* headings */
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+    font-weight:900;
+}
+
+h2{
+    font-size:3rem;
+    line-height:1.5;
+    font-weight:bold;
+}
+#iphone{
+    transform:rotate(20deg);
+    width:60%;
+    position:absolute;
+}
+
+body{
+    font-family:'Montserrat';
+    font-family:400;
+}
+
+
+/* navigational bar */
+
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family:'Montserrat';
+    font-weight:100;
+    }
+
+/* download button  */
+
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+/* features */
+
+#features{
+    padding:8% 15%;
+    position:relative;
+    background-color:#fff;
+}
+
+.col-md-4{
+    text-align:center;
+}
+
+.feature-heading{
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.icon{
+    color:#ef8172;
+    }
+
+.icon:hover{
+    color:#FF4C68;
+}
+
+
+/* testimonials */
+
+#testimonials{
+    padding:7% 15%;
+    text-align:center;
+    background-color:#ef8172;
+    color:white;
+}
+.testimonial-image{
+    border-radius:100%;
+    width:10%
+}
+
+.testimonial-text{
+    font-size:3rem;
+    line-height:1.5;
+    font-weight:bold;
+}
+
+/*  press  */
+
+#press{
+    background-color:#ef8172;
+    text-align:center;
+    padding-bottom:3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+    padding:100px;
+}
+
+.pricing-column{
+    padding:3% 2%
+}
+
+.price{
+    font-size:3rem;
+    line-height:1.5;
+    font-weight:bold;
+}
+
+.plan-heading{
+    font-weight:bold;
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/* cta */
+
+#cta h3{
+    font-size: 3.5rem;
+    line-height:1.5;
+    margin-bottom:50px;
+}
+
+#cta{
+    background-color:#ff4c68;
+    text-align:center;
+    color:white;
+    padding:3% 15% 5%
+}
+
+#cta button{
+    margin:0 1%;
+}
+
+#footer{
+    text-align:center;
+    padding-top:5%;
+    font-size:1rem;
+    padding-bottom:2%;
+}
+
+#footer i {
+    margin:20px 5px 25px;
+}
+
+@media (max-width:1028px){
+#iphone{    position:static;
+            transform:rotate(0);
+}
+#title{
+    text-align:center;
+}
+}
+
